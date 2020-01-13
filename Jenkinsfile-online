@@ -10,12 +10,12 @@ pipeline {
     }
 
     environment {
-        DOCKER_CREDENTIAL_ID = 'harbor-hcwei'
-        GITHUB_CREDENTIAL_ID = 'gitlab-hcwei'
-        KUBECONFIG_CREDENTIAL_ID = 'kubeconfig'
-        REGISTRY = 'harbor.51shaoxi.cn'
-        DOCKERHUB_NAMESPACE = 'hcwei'
-        GITHUB_ACCOUNT = 'http://gitlab.51shaoxi.com/wei5888765'
+        DOCKER_CREDENTIAL_ID = 'dockerhub-id'
+        GITHUB_CREDENTIAL_ID = 'github-id'
+        KUBECONFIG_CREDENTIAL_ID = 'demo-kubeconfig'
+        REGISTRY = 'docker.io'
+        DOCKERHUB_NAMESPACE = 'wei588765'
+        GITHUB_ACCOUNT = 'wei5888765'
         APP_NAME = 'devops-java-sample'
         SONAR_CREDENTIAL_ID= 'sonar-token'
     }
